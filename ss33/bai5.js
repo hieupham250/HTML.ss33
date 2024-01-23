@@ -9,7 +9,7 @@ class Book {
     borrow() {
       if (this.isAvailable) {
         this.isAvailable = false;
-        console.log(`sách "${this.title}" đã đc trả lại`);
+        console.log(`sách "${this.title}" đã đc mượn`);
       } else {
         console.log(`sách "${this.title}" không có sẵn`);
       }
